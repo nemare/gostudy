@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b6fe0a23-a3df-48b4-9406-5765e6de0a9b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StringTest.go" beforeDir="false" afterPath="$PROJECT_DIR$/StringTest.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,12 +48,20 @@
     <property name="last_opened_file_path" value="$USER_HOME$" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager" selected="Go Build.go build StringTest.go">
+  <component name="RunManager" selected="Go Build.go build BalanceTest.go">
     <configuration name="go build AESCMACTest.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="awesomeProject" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/AESCMACTest.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build BalanceTest.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="awesomeProject" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/BalanceTest.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -74,14 +81,6 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build md5test.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="awesomeProject" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/md5test.go" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
     <configuration name="go build syncpool.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="awesomeProject" />
       <working_directory value="$PROJECT_DIR$" />
@@ -92,11 +91,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build BalanceTest.go" />
         <item itemvalue="Go Build.go build StringTest.go" />
         <item itemvalue="Go Build.go build EasyCases.go" />
         <item itemvalue="Go Build.go build syncpool.go" />
         <item itemvalue="Go Build.go build AESCMACTest.go" />
-        <item itemvalue="Go Build.go build md5test.go" />
       </list>
     </recent_temporary>
   </component>
@@ -118,10 +117,11 @@
     </state>
     <state x="318" y="144" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.797/1440.23.1920.1057@0.23.1440.797" timestamp="1598866352792" />
     <state x="1864" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.797/1440.23.1920.1057@1440.23.1920.1057" timestamp="1598587383190" />
-    <state x="567" y="88" key="CommitChangelistDialog2" timestamp="1603198104647">
-      <screen x="0" y="23" width="1920" height="982" />
+    <state x="425" y="23" key="CommitChangelistDialog2" timestamp="1603615770342">
+      <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state x="567" y="88" key="CommitChangelistDialog2/-1440.23.1440.877/0.23.1920.982@0.23.1920.982" timestamp="1603198104647" />
+    <state x="425" y="23" key="CommitChangelistDialog2/0.23.1440.822@0.23.1440.822" timestamp="1603615770342" />
     <state width="1398" height="336" key="GridCell.Tab.0.bottom" timestamp="1603615715038">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
@@ -237,10 +237,11 @@
     <state x="221" y="60" key="SettingsEditor/0.23.1440.797@0.23.1440.797" timestamp="1598494048031" />
     <state x="221" y="60" key="SettingsEditor/0.23.1440.801@0.23.1440.801" timestamp="1598344789420" />
     <state x="221" y="60" key="SettingsEditor/0.23.1440.804@0.23.1440.804" timestamp="1598344748347" />
-    <state x="560" y="254" key="Vcs.Push.Dialog.v2" timestamp="1603198128564">
-      <screen x="0" y="23" width="1920" height="982" />
+    <state x="420" y="216" key="Vcs.Push.Dialog.v2" timestamp="1603615774276">
+      <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state x="560" y="254" key="Vcs.Push.Dialog.v2/-1440.23.1440.877/0.23.1920.982@0.23.1920.982" timestamp="1603198128564" />
+    <state x="420" y="216" key="Vcs.Push.Dialog.v2/0.23.1440.822@0.23.1440.822" timestamp="1603615774276" />
     <state x="557" y="61" width="806" height="908" key="find.popup" timestamp="1602849383596">
       <screen x="0" y="23" width="1920" height="984" />
     </state>
