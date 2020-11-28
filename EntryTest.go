@@ -30,7 +30,15 @@ func main() {
 			if err != nil {
 				continue
 			}
-			balance.Entries = append(balance.Entries, entry)
+			resEntry := Entry{
+				ID:    entry.ID,
+				Icon:  entry.Icon,
+				Name:  entry.Name,
+				Desc:  entry.Desc,
+				Url:   entry.Url,
+				Value: amountStr,
+			}
+			balance.Entries = append(balance.Entries, resEntry)
 			allAmount = allAmount.Add(amount)
 		}
 	}
@@ -39,6 +47,9 @@ func main() {
 	fmt.Println(balance.Amount)
 	fmt.Println(balance.Entries)
 	fmt.Println(len(balance.Entries))
+
+	balance1 := &Balance{}
+	fmt.Println(balance1.Value)
 }
 
 type Balance struct {
