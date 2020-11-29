@@ -28,4 +28,13 @@ func main() {
 	if reflect.DeepEqual(c1, c2) {
 		fmt.Println(c1, "==", c2)
 	}
+
+	d1 := map[string]interface{}{
+		"a": 1, "b": 0,
+	}
+	d2 := map[string]interface{}{
+		"a": 1, "b": 1,
+	}
+	fmt.Println(reflect.DeepEqual(d1, d2))
+
 }
