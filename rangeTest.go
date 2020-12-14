@@ -21,7 +21,10 @@ func main() {
 	b2 := []int{1, 2}
 	if reflect.DeepEqual(b1, b2) {
 		fmt.Println(b1, "==", b2)
+
 	}
+
+	fmt.Println(fmt.Sprintf("%vdada", b2))
 
 	c1 := map[string]int{"a": 1, "b": 2}
 	c2 := map[string]int{"a": 1, "b": 2}
