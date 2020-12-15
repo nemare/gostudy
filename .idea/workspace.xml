@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b6fe0a23-a3df-48b4-9406-5765e6de0a9b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/PointerTest.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Book.go" beforeDir="false" afterPath="$PROJECT_DIR$/Book.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntryTest.go" beforeDir="false" afterPath="$PROJECT_DIR$/EntryTest.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rangeTest.go" beforeDir="false" afterPath="$PROJECT_DIR$/rangeTest.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +49,7 @@
     <property name="last_opened_file_path" value="$USER_HOME$" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager" selected="Go Build.go build Book.go">
+  <component name="RunManager" selected="Go Build.go build PointerTest.go">
     <configuration name="go build Book.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="awesomeProject" />
       <working_directory value="$PROJECT_DIR$" />
@@ -68,19 +66,19 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <configuration name="go build PointerTest.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="awesomeProject" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/PointerTest.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build duplicate1.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="awesomeProject" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/duplicate1.go" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build qumoTest.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="awesomeProject" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/qumoTest.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -94,11 +92,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build PointerTest.go" />
         <item itemvalue="Go Build.go build Book.go" />
         <item itemvalue="Go Build.go build EntryTest.go" />
         <item itemvalue="Go Build.go build rangeTest.go" />
         <item itemvalue="Go Build.go build duplicate1.go" />
-        <item itemvalue="Go Build.go build qumoTest.go" />
       </list>
     </recent_temporary>
   </component>
