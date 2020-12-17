@@ -1,26 +1,20 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"strconv"
+	"strings"
+)
 
 func main() {
 	// 1
-	fmt.Println(f() == f())
-	fmt.Println(*f() == *f())
 
 	// 2
-	v := 1
-	incr(&v)
-	fmt.Println(v)
-	fmt.Println(incr(&v))
-}
 
-func f() *int {
-	v := 1
-	fmt.Println(&v)
-	return &v
-}
+	var a map[string]string
+	fmt.Println(len(a))
 
-func incr(p *int) int {
-	*p++
-	return *p
+	b := "-1"
+	c, _ := strconv.Atoi(strings.Split(b, ",")[0])
+	fmt.Println(c)
 }
