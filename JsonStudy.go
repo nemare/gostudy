@@ -23,8 +23,8 @@ type Ext struct {
 }
 
 type SepConf struct {
-	Seps     []string `json:"seps"`
-	TextConf TextConf `json:"text_conf"`
+	Seps     []string    `json:"seps"`
+	TextConf []*TextConf `json:"text_conf"`
 }
 
 type TextConf struct {
@@ -51,10 +51,6 @@ func main() {
 		Seps: []string{"￥", "₠", "₡", "₢", "₣", "₤",
 			"₥", "₦", "₧", "₨", "₩", "₪", "₫", "€", "₭", "₮", "₯", "₰", "₱",
 			"₲", "₳", "₴", "₵", "₶", "₷", "₸", "₹"},
-		TextConf: TextConf{
-			ButtonText:    "打开",
-			ShareUserText: "给你分享了",
-		},
 	}
 
 	json_str, err := json.Marshal(ext)

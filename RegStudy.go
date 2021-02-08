@@ -28,5 +28,11 @@ func main() {
 }
 
 func getTailNumber(phone string) string {
+	//if true {
+	//	return ""
+	//}
+	defer func() {
+		fmt.Println("hello")
+	}()
 	return phone[len(phone)-4:]
 }
