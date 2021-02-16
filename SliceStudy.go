@@ -24,4 +24,13 @@ func main() {
 
 	var bytes []byte
 	fmt.Println(len(string(bytes)))
+
+	filteredSubFactorInfos := make([]int, 0)
+	for i := 0; i < 29; i++ {
+
+		filteredSubFactorInfos = append(filteredSubFactorInfos, i)
+	}
+
+	fmt.Println(len(filteredSubFactorInfos))
+	fmt.Println(filteredSubFactorInfos[:32])
 }
