@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b6fe0a23-a3df-48b4-9406-5765e6de0a9b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SliceStudy.go" beforeDir="false" afterPath="$PROJECT_DIR$/SliceStudy.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +65,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build SliceStudy.go">
+  <component name="RunManager" selected="Go Build.go build channel_cancellation.go">
     <configuration name="go build GenSQL.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="awesomeProject" />
       <working_directory value="$PROJECT_DIR$" />
@@ -75,19 +74,19 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build RegStudy.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="awesomeProject" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/RegStudy.go" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
     <configuration name="go build SliceStudy.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="awesomeProject" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/SliceStudy.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build channel_cancellation.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="awesomeProject" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/channel_cancellation.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -109,11 +108,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build channel_cancellation.go" />
         <item itemvalue="Go Build.go build SliceStudy.go" />
         <item itemvalue="Go Build.go build client.go" />
         <item itemvalue="Go Build.go build register.go" />
         <item itemvalue="Go Build.go build GenSQL.go" />
-        <item itemvalue="Go Build.go build RegStudy.go" />
       </list>
     </recent_temporary>
   </component>
@@ -125,7 +124,8 @@
     <MESSAGE value="add" />
     <MESSAGE value="虚拟继承" />
     <MESSAGE value="增加" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加" />
+    <MESSAGE value="slice截断" />
+    <option name="LAST_COMMIT_MESSAGE" value="slice截断" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
