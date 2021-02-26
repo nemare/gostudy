@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b6fe0a23-a3df-48b4-9406-5765e6de0a9b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/randTime.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b6fe0a23-a3df-48b4-9406-5765e6de0a9b" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -66,7 +63,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build randTime.go">
+  <component name="RunManager" selected="Go Build.go build enum_study.go">
     <configuration name="go build SliceStudy.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="awesomeProject" />
       <working_directory value="$PROJECT_DIR$" />
@@ -83,19 +80,19 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build client.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="awesomeProject" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/client.go" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
     <configuration name="go build context_cancellation2.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="awesomeProject" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/context_cancellation2.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build enum_study.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="awesomeProject" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/enum_study.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -109,11 +106,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build enum_study.go" />
         <item itemvalue="Go Build.go build randTime.go" />
         <item itemvalue="Go Build.go build context_cancellation2.go" />
         <item itemvalue="Go Build.go build channel_cancellation.go" />
         <item itemvalue="Go Build.go build SliceStudy.go" />
-        <item itemvalue="Go Build.go build client.go" />
       </list>
     </recent_temporary>
   </component>
