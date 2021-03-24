@@ -66,7 +66,7 @@ func main() {
 		Title string
 	}
 
-	err1 := json.Unmarshal(json_str, &titles)
+	err1 := json.Unmarshal([]byte(""), &titles)
 	if err1 != nil {
 		log.Fatal(err1)
 		return
