@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b6fe0a23-a3df-48b4-9406-5765e6de0a9b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/JsonStudy.go" beforeDir="false" afterPath="$PROJECT_DIR$/JsonStudy.go" afterDir="false" />
+    <list default="true" id="b6fe0a23-a3df-48b4-9406-5765e6de0a9b" name="Default Changelist" comment="json">
+      <change afterPath="$PROJECT_DIR$/red_sync_study.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +34,6 @@
     </file-type-list>
   </component>
   <component name="GoLibraries">
-    <option name="indexEntireGoPath" value="false" />
     <option name="urls">
       <list>
         <option value="file://$PROJECT_DIR$/.." />
@@ -54,6 +54,7 @@
     <property name="configurable.Module.GOPATH.is.expanded" value="false" />
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
@@ -127,7 +128,8 @@
     <MESSAGE value="slice截断" />
     <MESSAGE value="context cancellation" />
     <MESSAGE value="context_cancellation2.go" />
-    <option name="LAST_COMMIT_MESSAGE" value="context_cancellation2.go" />
+    <MESSAGE value="json" />
+    <option name="LAST_COMMIT_MESSAGE" value="json" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -146,11 +148,6 @@
           <url>file://$PROJECT_DIR$/RegStudy.go</url>
           <line>36</line>
           <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/JsonStudy.go</url>
-          <line>70</line>
-          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

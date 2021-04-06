@@ -1,0 +1,9 @@
+# github.com/aead/cmac v0.0.0-20160719120800-7af84192f0b1
+## explicit
+github.com/aead/cmac
+# github.com/shopspring/decimal v1.2.0
+## explicit
+github.com/shopspring/decimal
+# github.com/tilinna/z85 v1.0.0
+## explicit
+github.com/tilinna/z85
