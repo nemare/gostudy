@@ -79,6 +79,8 @@ AUeJ6PeW+DAkmJWF6QIDAQAB
 
 func main() {
 
+	fmt.Println(fmt.Sprintf("%v", true))
+
 	data, err := RsaEncrypt([]byte("polaris@studygolang.com")) //RSA加密
 	if err != nil {
 		panic(err)
