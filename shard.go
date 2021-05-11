@@ -9,7 +9,7 @@ import (
 
 func main() {
 
-	fmt.Println(getShard(6788390203886952252, false))
+	fmt.Println(getShard(6797408391518770221, false))
 }
 
 func getShard(id int64, isUid bool) uint32 {

@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b6fe0a23-a3df-48b4-9406-5765e6de0a9b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/shard.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dad.go" beforeDir="false" afterPath="$PROJECT_DIR$/dad.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shard.go" beforeDir="false" afterPath="$PROJECT_DIR$/shard.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,12 +92,12 @@
       <filePath value="$PROJECT_DIR$/enum_study.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build randTime.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build rangeTest.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="awesomeProject" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/randTime.go" />
+      <filePath value="$PROJECT_DIR$/rangeTest.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build shard.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -114,10 +111,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Go Build.go build shard.go" />
+        <item itemvalue="Go Build.go build rangeTest.go" />
         <item itemvalue="Go Build.go build dad.go" />
         <item itemvalue="Go Build.go build JsonStudy.go" />
         <item itemvalue="Go Build.go build enum_study.go" />
-        <item itemvalue="Go Build.go build randTime.go" />
       </list>
     </recent_temporary>
   </component>
@@ -134,7 +131,8 @@
     <MESSAGE value="context_cancellation2.go" />
     <MESSAGE value="json" />
     <MESSAGE value="add vendor" />
-    <option name="LAST_COMMIT_MESSAGE" value="add vendor" />
+    <MESSAGE value="分表获取index" />
+    <option name="LAST_COMMIT_MESSAGE" value="分表获取index" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -153,11 +151,6 @@
           <url>file://$PROJECT_DIR$/RegStudy.go</url>
           <line>36</line>
           <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/shard.go</url>
-          <line>11</line>
-          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
