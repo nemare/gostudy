@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b6fe0a23-a3df-48b4-9406-5765e6de0a9b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shard.go" beforeDir="false" afterPath="$PROJECT_DIR$/shard.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtendStudy.go" beforeDir="false" afterPath="$PROJECT_DIR$/ExtendStudy.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,13 +67,21 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build shard.go">
-    <configuration name="go build JsonStudy.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build ExtendStudy.go">
+    <configuration name="go build ExtendStudy.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="awesomeProject" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/JsonStudy.go" />
+      <filePath value="$PROJECT_DIR$/ExtendStudy.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build aaa.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="awesomeProject" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/aaa.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build dad.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -82,14 +90,6 @@
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$/dad.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build enum_study.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="awesomeProject" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/enum_study.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build rangeTest.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -110,11 +110,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build ExtendStudy.go" />
+        <item itemvalue="Go Build.go build aaa.go" />
         <item itemvalue="Go Build.go build shard.go" />
         <item itemvalue="Go Build.go build rangeTest.go" />
         <item itemvalue="Go Build.go build dad.go" />
-        <item itemvalue="Go Build.go build JsonStudy.go" />
-        <item itemvalue="Go Build.go build enum_study.go" />
       </list>
     </recent_temporary>
   </component>
