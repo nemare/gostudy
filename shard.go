@@ -9,7 +9,18 @@ import (
 
 func main() {
 
-	fmt.Println(getShard(6797408391518770221, false))
+	fmt.Println(getShard(6800789753420690247, false))
+
+	params := map[string]interface{}{}
+	//params["is_order"] = true
+
+	payRecChannel := false
+	payRec, ok := params["is_order"]
+	if ok {
+		payRecChannel, _ = payRec.(bool)
+	}
+
+	fmt.Println(payRecChannel)
 }
 
 func getShard(id int64, isUid bool) uint32 {
