@@ -22,6 +22,11 @@ type Ext struct {
 	InstanceID      string `json:"instance_id"`
 }
 
+func (a Ext) String() string {
+
+	return "hello " + a.DCHN
+}
+
 type SepConf struct {
 	Seps     []string    `json:"seps"`
 	TextConf []*TextConf `json:"text_conf"`
@@ -41,7 +46,14 @@ func main() {
 		ActivityID:      "4",
 		InstanceID:      "5",
 	})
-	fmt.Printf("%v\n", string(s))
+	fmt.Printf("%v\n", s)
+	fmt.Printf("%v\n", Ext{
+		DCHN:            "2",
+		EntranceChannel: "1",
+		XID:             "3",
+		ActivityID:      "4",
+		InstanceID:      "5",
+	})
 	//movies := []Movie{
 	//	{"你是", 2000, false, []string{"李连杰", "成龙"}},
 	//	{Title: "我是", Year: 2010, Actor: []string{"李连杰", "成龙"}},
