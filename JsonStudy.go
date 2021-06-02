@@ -34,6 +34,14 @@ type TextConf struct {
 
 func main() {
 
+	s, _ := json.Marshal(Ext{
+		DCHN:            "2",
+		EntranceChannel: "1",
+		XID:             "3",
+		ActivityID:      "4",
+		InstanceID:      "5",
+	})
+	fmt.Printf("%v\n", string(s))
 	//movies := []Movie{
 	//	{"你是", 2000, false, []string{"李连杰", "成龙"}},
 	//	{Title: "我是", Year: 2010, Actor: []string{"李连杰", "成龙"}},

@@ -9,7 +9,7 @@ import (
 
 func main() {
 
-	fmt.Println(getShard(6800789753420690247, false))
+	fmt.Println(getShard(6802026607896204770, false))
 
 	params := map[string]interface{}{}
 	//params["is_order"] = true
